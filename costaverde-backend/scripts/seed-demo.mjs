@@ -9,7 +9,7 @@
 //   assets vectoriales de /branding-demo.
 //
 // Uso:
-//   cd am-social-club-backend
+//   cd costaverde-backend
 //   npm run migrate        # primero: esquema + seed de desarrollo
 //   node scripts/seed-demo.mjs --force
 //

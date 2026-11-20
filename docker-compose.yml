@@ -17,7 +17,7 @@
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: am-social-club-db
+    container_name: costaverde-demo-db
 
     environment:
       POSTGRES_USER: ${DB_USER:-socialclub_user}

@@ -31,7 +31,7 @@ Sistema completo (monorepo) de reservas para un club social multi-empresa:
 
 ## Arquitectura de marca (white-label)
 
-Toda la marca vive en `am-social-club-frontend/lib/branding.ts` (React/JSX) y en
+Toda la marca vive en `costaverde-frontend/lib/branding.ts` (React/JSX) y en
 `CLUB_NAME` (backend), alimentados por variables `NEXT_PUBLIC_BRAND_*`. Cambiar de
 marca = cambiar env + assets en `public/`, **cero cambios de código**. Esta demo usa
 esa misma capa con su marca ficticia.
@@ -42,7 +42,7 @@ esa misma capa con su marca ficticia.
 
 ```bash
 # 1 · Backend
-cd am-social-club-backend
+cd costaverde-backend
 cp .env.example .env          # y pega tu DATABASE_URL de Aiven (ver §3)
 npm install
 npm run migrate               # aplica las 29 migraciones
@@ -50,7 +50,7 @@ npm run seed:demo             # siembra datos ficticios (usa --force: la demo es
 npm run dev                   # API en http://localhost:4000
 
 # 2 · Frontend (otra terminal)
-cd am-social-club-frontend
+cd costaverde-frontend
 npm install
 npm run dev                   # http://localhost:3000
 ```

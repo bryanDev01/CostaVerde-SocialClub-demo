@@ -12,7 +12,7 @@ export const poolConfig: PoolConfig = {
   // A connection left inside an open transaction would keep row locks and
   // block reservations or the daily counter recalculation. Postgres closes it.
   idle_in_transaction_session_timeout: 60000,
-  application_name: 'am-social-club-api',
+  application_name: 'costaverde-socialclub-api',
   keepAlive: true,
   // TLS explícito: activo por defecto en producción (Aiven/managed).
   // rejectUnauthorized es configurable (verify-full para CAs de confianza).

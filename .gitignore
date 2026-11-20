@@ -46,7 +46,7 @@ uploads/
 db-import-export/
 
 # Promo video assets (project trailer: no versionar)
-am-social-club-promo/
+costaverde-promo/
 # Logs (may contain tokens)
 *.log
 next.err

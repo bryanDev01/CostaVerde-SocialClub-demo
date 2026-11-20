@@ -18,14 +18,14 @@ jobs:
         with:
           node-version: '24.14.0'
           cache: 'npm'
-          cache-dependency-path: am-social-club-backend/package-lock.json
+          cache-dependency-path: costaverde-backend/package-lock.json
 
       - name: Install dependencies
-        working-directory: am-social-club-backend
+        working-directory: costaverde-backend
         run: npm install
 
       - name: Build
-        working-directory: am-social-club-backend
+        working-directory: costaverde-backend
         run: npm run build
 
   frontend-build:
@@ -39,12 +39,12 @@ jobs:
         with:
           node-version: '24.14.0'
           cache: 'npm'
-          cache-dependency-path: am-social-club-frontend/package-lock.json
+          cache-dependency-path: costaverde-frontend/package-lock.json
 
       - name: Install dependencies
-        working-directory: am-social-club-frontend
+        working-directory: costaverde-frontend
         run: npm install
 
       - name: Build
-        working-directory: am-social-club-frontend
+        working-directory: costaverde-frontend
         run: npm run build

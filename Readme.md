@@ -24,8 +24,8 @@ de ocupación e ingresos.
 
 ```
 CostaVerde-SocialClub-demo/
-├── am-social-club-frontend/   # Next.js (puerto 3000)
-├── am-social-club-backend/    # Express API (puerto 4000)
+├── costaverde-frontend/   # Next.js (puerto 3000)
+├── costaverde-backend/    # Express API (puerto 4000)
 │   └── scripts/seed-demo.mjs  # Datos ficticios para la demo
 ├── docker-compose.yml         # PostgreSQL local opcional
 └── DEMO.md                    # Guía de la demo (cuentas, flujo, despliegue)
@@ -35,12 +35,12 @@ CostaVerde-SocialClub-demo/
 
 ```bash
 # Backend
-cd am-social-club-backend
+cd costaverde-backend
 cp .env.example .env    # configura DATABASE_URL (Aiven o Docker local)
 npm install && npm run migrate && npm run seed:demo && npm run dev
 
 # Frontend (otra terminal)
-cd am-social-club-frontend
+cd costaverde-frontend
 npm install && npm run dev
 ```
 

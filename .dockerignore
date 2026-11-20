@@ -2,7 +2,7 @@
 **/node_modules
 **/.next
 **/dist
-am-social-club-frontend/
+costaverde-frontend/
 **/.env
 **/.env.*
 !**/.env.example
