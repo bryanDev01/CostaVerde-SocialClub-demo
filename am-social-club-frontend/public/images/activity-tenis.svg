@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cancha de tenis">
+  <defs>
+    <linearGradient id="tenisBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16307A"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tenisBg)"/>
+  <circle cx="130" cy="110" r="110" fill="#FFFFFF" opacity="0.06"/>
+  <rect x="140" y="90" width="520" height="420" fill="none" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="4"/>
+  <line x1="140" y1="210" x2="660" y2="210" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="3"/>
+  <line x1="140" y1="390" x2="660" y2="390" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="3"/>
+  <line x1="400" y1="210" x2="400" y2="390" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="3"/>
+  <line x1="140" y1="300" x2="660" y2="300" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="8"/>
+  <circle cx="140" cy="300" r="9" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="660" cy="300" r="9" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="590" cy="530" rx="46" ry="12" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="590" cy="515" r="30" fill="#DC2626"/>
+  <path d="M566 500 q24 22 48 0" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+  <path d="M566 530 q24 -22 48 0" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+  <path d="M420 470 Q480 500 552 512" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="10 12" stroke-linecap="round"/>
+</svg>

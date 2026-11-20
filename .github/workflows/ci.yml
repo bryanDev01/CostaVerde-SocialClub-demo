@@ -1,0 +1,50 @@
+name: CI - Build & Test
+
+on:
+  push:
+    branches: [develop, feature/*, bugfix/*, main]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  backend-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+          cache: 'npm'
+          cache-dependency-path: am-social-club-backend/package-lock.json
+
+      - name: Install dependencies
+        working-directory: am-social-club-backend
+        run: npm install
+
+      - name: Build
+        working-directory: am-social-club-backend
+        run: npm run build
+
+  frontend-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+          cache: 'npm'
+          cache-dependency-path: am-social-club-frontend/package-lock.json
+
+      - name: Install dependencies
+        working-directory: am-social-club-frontend
+        run: npm install
+
+      - name: Build
+        working-directory: am-social-club-frontend
+        run: npm run build

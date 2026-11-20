@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1040" role="img" aria-label="Ilustración del área de piscina del club">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#16307A"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16307A"/>
+      <stop offset="1" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="1040" fill="url(#sky)"/>
+  <circle cx="690" cy="170" r="150" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="690" cy="170" r="105" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="690" cy="170" r="78" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="0" y="460" width="880" height="100" fill="#FFFFFF" opacity="0.1"/>
+  <line x1="0" y1="460" x2="880" y2="460" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+  <path d="M70 385 a100 100 0 0 1 200 0 Z" fill="#DC2626"/>
+  <path d="M170 285 V510" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="8" stroke-linecap="round"/>
+  <line x1="120" y1="345" x2="170" y2="385" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+  <line x1="220" y1="345" x2="170" y2="385" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="545" y="482" width="215" height="30" rx="15" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="742" y="428" width="30" height="74" rx="15" fill="#FFFFFF" opacity="0.95" transform="rotate(32 757 465)"/>
+  <rect x="525" y="522" width="185" height="26" rx="13" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="693" y="482" width="26" height="58" rx="13" fill="#FFFFFF" opacity="0.75" transform="rotate(32 706 511)"/>
+  <rect x="0" y="560" width="880" height="480" fill="url(#water)"/>
+  <path d="M0 645 Q110 610 220 645 T440 645 T660 645 T880 645" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="3"/>
+  <path d="M0 735 Q110 700 220 735 T440 735 T660 735 T880 735" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="3"/>
+  <path d="M0 830 Q110 795 220 830 T440 830 T660 830 T880 830" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3"/>
+  <path d="M0 930 Q110 895 220 930 T440 930 T660 930 T880 930" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="3"/>
+  <line x1="60" y1="690" x2="820" y2="690" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 30"/>
+  <line x1="60" y1="985" x2="820" y2="985" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 30"/>
+  <line x1="770" y1="580" x2="770" y2="800" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="7" stroke-linecap="round"/>
+  <line x1="820" y1="580" x2="820" y2="800" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="7" stroke-linecap="round"/>
+  <line x1="770" y1="620" x2="820" y2="620" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <line x1="770" y1="680" x2="820" y2="680" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <line x1="770" y1="740" x2="820" y2="740" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="215" cy="862" r="44" fill="none" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="16"/>
+  <circle cx="215" cy="862" r="44" fill="none" stroke="#DC2626" stroke-width="16" stroke-dasharray="30 108"/>
+  <circle cx="600" cy="905" r="7" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="450" cy="960" r="5" fill="#FFFFFF" opacity="0.25"/>
+  <circle cx="330" cy="1010" r="8" fill="#FFFFFF" opacity="0.2"/>
+</svg>

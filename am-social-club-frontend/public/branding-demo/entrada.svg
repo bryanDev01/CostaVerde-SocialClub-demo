@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFD4FF"/>
+      <stop offset="1" stop-color="#EFF4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="990" cy="130" r="70" fill="#FDE68A"/>
+  <!-- facade -->
+  <rect x="140" y="270" width="920" height="420" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="8"/>
+  <rect x="140" y="242" width="920" height="52" fill="#1E3A8A"/>
+  <rect x="110" y="212" width="980" height="36" fill="#DC2626"/>
+  <!-- arches -->
+  <g fill="#1E3A8A">
+    <path d="M230 690 V470 a85 85 0 0 1 170 0 v220 Z"/>
+    <path d="M800 690 V470 a85 85 0 0 1 170 0 v220 Z"/>
+  </g>
+  <path d="M490 690 V440 a110 110 0 0 1 220 0 v250 Z" fill="#DC2626"/>
+  <path d="M512 690 V452 a88 88 0 0 1 176 0 v238 Z" fill="#0F1E4C"/>
+  <rect x="596" y="480" width="8" height="210" fill="#F8FAFC" opacity="0.5"/>
+  <!-- sign -->
+  <rect x="430" y="316" width="340" height="76" rx="12" fill="#EFF4FF" stroke="#1E3A8A" stroke-width="6"/>
+  <text x="600" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#1E3A8A" letter-spacing="4">COSTA VERDE</text>
+  <!-- palms -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M90 700 C 96 580 92 520 78 470" stroke="#1E3A8A" stroke-width="16"/>
+    <path d="M78 470 C 40 430 -10 430 -40 456 C 6 440 46 448 74 478 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M78 470 C 118 430 168 432 196 458 C 150 442 110 450 82 478 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M78 470 C 62 420 34 392 0 380 C 36 396 60 424 70 466 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M1110 700 C 1104 580 1108 520 1122 470" stroke="#1E3A8A" stroke-width="16"/>
+    <path d="M1122 470 C 1160 430 1210 430 1240 456 C 1194 440 1154 448 1126 478 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M1122 470 C 1082 430 1032 432 1004 458 C 1050 442 1090 450 1118 478 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M1122 470 C 1138 420 1166 392 1200 380 C 1164 396 1140 424 1130 466 Z" fill="#1E3A8A" stroke="none"/>
+  </g>
+  <!-- ground -->
+  <rect x="0" y="690" width="1200" height="110" fill="#D8CBB0"/>
+  <rect x="470" y="690" width="260" height="110" fill="#C9B891"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" fill="#ffffff"/>
+  <g transform="translate(512,512)">
+    <circle r="440" fill="none" stroke="#1E3A8A" stroke-width="46"/>
+    <circle r="352" fill="#EFF4FF" stroke="#1E3A8A" stroke-width="16"/>
+    <!-- anchor -->
+    <g stroke="#1E3A8A" stroke-width="34" fill="none" stroke-linecap="round">
+      <line x1="0" y1="-210" x2="0" y2="190"/>
+      <line x1="-120" y1="-130" x2="120" y2="-130"/>
+      <path d="M-190 60 C -190 200 -90 250 0 250 C 90 250 190 200 190 60"/>
+    </g>
+    <circle cx="0" cy="-250" r="52" fill="none" stroke="#1E3A8A" stroke-width="30"/>
+    <path d="M-244 20 L-190 60 L-238 96 Z" fill="#DC2626"/>
+    <path d="M244 20 L190 60 L238 96 Z" fill="#DC2626"/>
+    <!-- gear ticks -->
+    <g stroke="#1E3A8A" stroke-width="14">
+      <line x1="-300" y1="0" x2="-360" y2="0"/>
+      <line x1="300" y1="0" x2="360" y2="0"/>
+      <line x1="0" y1="-300" x2="0" y2="-338" opacity="0"/>
+    </g>
+  </g>
+  <text x="512" y="942" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="bold" letter-spacing="14" fill="#1E3A8A">GEM</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="800" fill="#EFF4FF"/>
+  <rect y="560" width="1200" height="240" fill="#DCE6FA"/>
+  <!-- pool water -->
+  <path d="M120 600 h960 a60 60 0 0 0 0 -180 h-960 a60 60 0 0 0 0 180 Z" fill="#1E3A8A" transform="translate(-40,0)" opacity="0.9"/>
+  <g stroke="#BFD4FF" stroke-width="8" fill="none" opacity="0.8">
+    <path d="M120 470 C 200 450 280 490 360 470 C 440 450 520 490 600 470 C 680 450 760 490 840 470 C 920 450 1000 490 1080 470"/>
+    <path d="M120 520 C 200 500 280 540 360 520 C 440 500 520 540 600 520 C 680 500 760 540 840 520 C 920 500 1000 540 1080 520"/>
+  </g>
+  <!-- deck -->
+  <rect x="0" y="590" width="1200" height="30" fill="#C9B891"/>
+  <!-- umbrellas -->
+  <g>
+    <path d="M230 590 v-190" stroke="#7C2D12" stroke-width="12"/>
+    <path d="M110 400 a 120 90 0 0 1 240 0 Z" fill="#DC2626"/>
+    <path d="M230 400 L 230 310 M 170 400 L 195 320 M 290 400 L 265 320" stroke="#ffffff" stroke-width="6"/>
+    <path d="M870 590 v-190" stroke="#7C2D12" stroke-width="12"/>
+    <path d="M750 400 a 120 90 0 0 1 240 0 Z" fill="#1E3A8A"/>
+    <path d="M870 400 L 870 310 M 810 400 L 835 320 M 930 400 L 905 320" stroke="#ffffff" stroke-width="6"/>
+  </g>
+  <!-- loungers -->
+  <g fill="#F8FAFC" stroke="#1E3A8A" stroke-width="6">
+    <path d="M330 590 h150 l30 -70 h-140 Z"/>
+    <path d="M640 590 h150 l30 -70 h-140 Z"/>
+  </g>
+  <!-- palms -->
+  <g stroke="#1E3A8A" stroke-width="14" fill="none" stroke-linecap="round">
+    <path d="M70 590 C 80 480 74 420 56 370"/>
+    <path d="M56 370 C 20 330 -16 326 -44 348 C -2 334 34 344 58 376 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M56 370 C 96 332 136 332 162 356 C 118 342 84 350 60 378 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M1130 590 C 1120 480 1126 420 1144 370"/>
+    <path d="M1144 370 C 1180 330 1216 326 1244 348 C 1202 334 1166 344 1142 376 Z" fill="#1E3A8A" stroke="none"/>
+    <path d="M1144 370 C 1104 332 1064 332 1038 356 C 1082 342 1116 350 1140 378 Z" fill="#1E3A8A" stroke="none"/>
+  </g>
+  <circle cx="1030" cy="120" r="60" fill="#FDE68A"/>
+</svg>

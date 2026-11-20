@@ -1,0 +1,47 @@
+{
+  "name": "am-social-club-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "bryanDev01",
+  "type": "module",
+  "main": "dist/server.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "nodemon --exec tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "migrate": "node scripts/migrate.mjs",
+    "seed:demo": "node scripts/seed-demo.mjs --force",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src scripts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.4.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.23.1",
+    "eslint": "^9.39.4",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.13",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.70.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "node-cron": "^4.6.0",
+    "pg": "^8.23.0"
+  }
+}

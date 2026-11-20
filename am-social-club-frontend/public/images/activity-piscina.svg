@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Piscina">
+  <defs>
+    <linearGradient id="piscinaBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#16307A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#piscinaBg)"/>
+  <circle cx="640" cy="120" r="120" fill="#FFFFFF" opacity="0.07"/>
+  <circle cx="640" cy="120" r="62" fill="#FFFFFF" opacity="0.9"/>
+  <path d="M0 300 Q100 265 200 300 T400 300 T600 300 T800 300" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="3"/>
+  <path d="M0 390 Q100 355 200 390 T400 390 T600 390 T800 390" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="3"/>
+  <path d="M0 480 Q100 445 200 480 T400 480 T600 480 T800 480" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3"/>
+  <path d="M0 560 Q100 525 200 560 T400 560 T600 560 T800 560" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="3"/>
+  <line x1="40" y1="345" x2="760" y2="345" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 28"/>
+  <line x1="660" y1="230" x2="660" y2="470" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="7" stroke-linecap="round"/>
+  <line x1="715" y1="230" x2="715" y2="470" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="7" stroke-linecap="round"/>
+  <line x1="660" y1="280" x2="715" y2="280" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <line x1="660" y1="350" x2="715" y2="350" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <line x1="660" y1="420" x2="715" y2="420" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="180" cy="505" r="40" fill="none" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="15"/>
+  <circle cx="180" cy="505" r="40" fill="none" stroke="#DC2626" stroke-width="15" stroke-dasharray="27 98"/>
+  <circle cx="420" cy="550" r="6" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="540" cy="510" r="4" fill="#FFFFFF" opacity="0.25"/>
+</svg>

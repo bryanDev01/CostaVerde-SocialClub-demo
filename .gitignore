@@ -1,0 +1,52 @@
+# Node
+node_modules/
+npm-debug.log*
+.npm
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# Scripts
+*.sh
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+next.err
+
+# Build
+build/
+
+# Runtime uploads (profile photos)
+uploads/
+
+# DB import/export (scripts, .env y dumps: no versionar)
+db-import-export/
+
+# Promo video assets (project trailer: no versionar)
+am-social-club-promo/
+# Logs (may contain tokens)
+*.log
+next.err

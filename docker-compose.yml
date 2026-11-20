@@ -1,0 +1,52 @@
+# ============================================================================
+# docker-compose.yml - Club Social Costa Verde (demo)
+# Servicio único: PostgreSQL (base de datos de desarrollo)
+# ============================================================================
+#
+# Uso:
+#   docker compose up -d       # levanta la base de datos en segundo plano
+#   docker compose logs -f     # ver logs de la base de datos
+#   docker compose down        # detener la base de datos
+#
+# Conexión:
+#   postgresql://socialclub_user:socialclub_pass@localhost:5433/socialclub_dev
+#   psql -h localhost -U socialclub_user -p 5433 -d socialclub_dev
+#
+# ============================================================================
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: am-social-club-db
+
+    environment:
+      POSTGRES_USER: ${DB_USER:-socialclub_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-socialclub_pass}
+      POSTGRES_DB: ${DB_NAME:-socialclub_dev}
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8"
+      TZ: UTC
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    # Puerto externo fijo 5433 (evita conflictos con Postgres nativo)
+    ports:
+      - "5433:5432"
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-socialclub_user} -d ${DB_NAME:-socialclub_dev}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+    restart: unless-stopped
+
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  postgres_data:
+    driver: local

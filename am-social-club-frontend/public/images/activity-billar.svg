@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Salón de billar">
+  <defs>
+    <linearGradient id="billarBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#16307A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#billarBg)"/>
+  <circle cx="680" cy="90" r="120" fill="#FFFFFF" opacity="0.05"/>
+  <rect x="70" y="70" width="660" height="460" rx="26" fill="#FFFFFF" opacity="0.08"/>
+  <rect x="70" y="70" width="660" height="460" rx="26" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3"/>
+  <circle cx="330" cy="290" r="34" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="322" cy="282" r="8" fill="#FFFFFF"/>
+  <circle cx="404" cy="330" r="34" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="396" cy="322" r="8" fill="#FFFFFF"/>
+  <circle cx="470" cy="270" r="34" fill="#DC2626"/>
+  <circle cx="462" cy="262" r="8" fill="#FFFFFF" opacity="0.65"/>
+  <circle cx="380" cy="228" r="34" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="372" cy="220" r="8" fill="#FFFFFF"/>
+  <line x1="120" y1="520" x2="500" y2="180" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="10" stroke-linecap="round"/>
+  <line x1="500" y1="180" x2="545" y2="144" stroke="#DC2626" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="620" cy="460" rx="60" ry="10" fill="#FFFFFF" opacity="0.15"/>
+</svg>

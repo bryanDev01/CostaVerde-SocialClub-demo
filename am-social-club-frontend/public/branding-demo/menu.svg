@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1376 768" width="1376" height="768">
+  <rect width="1376" height="768" fill="#ffffff"/>
+  <rect x="0" y="0" width="1376" height="110" fill="#1E3A8A"/>
+  <text x="688" y="74" text-anchor="middle" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#ffffff" letter-spacing="6">NUESTROS SERVICIOS</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(70,170)">
+      <rect width="390" height="250" rx="18" fill="#EFF4FF" stroke="#1E3A8A" stroke-width="4"/>
+      <text x="195" y="70" text-anchor="middle" font-size="34" font-weight="bold" fill="#1E3A8A">GASTRONOMÍA</text>
+      <text x="195" y="125" text-anchor="middle" font-size="26" fill="#374151">Ranchón criollo · Restaurante</text>
+      <text x="195" y="165" text-anchor="middle" font-size="26" fill="#374151">Panadería y pastelería</text>
+      <text x="195" y="205" text-anchor="middle" font-size="26" fill="#374151">Cafetería y heladería</text>
+    </g>
+    <g transform="translate(492,170)">
+      <rect width="390" height="250" rx="18" fill="#FEECEC" stroke="#DC2626" stroke-width="4"/>
+      <text x="195" y="70" text-anchor="middle" font-size="34" font-weight="bold" fill="#DC2626">RECREACIÓN</text>
+      <text x="195" y="125" text-anchor="middle" font-size="26" fill="#374151">Piscinas adultos y niños</text>
+      <text x="195" y="165" text-anchor="middle" font-size="26" fill="#374151">Sala de juegos y billar</text>
+      <text x="195" y="205" text-anchor="middle" font-size="26" fill="#374151">Gimnasio y canchas</text>
+    </g>
+    <g transform="translate(914,170)">
+      <rect width="390" height="250" rx="18" fill="#EFF4FF" stroke="#1E3A8A" stroke-width="4"/>
+      <text x="195" y="70" text-anchor="middle" font-size="34" font-weight="bold" fill="#1E3A8A">BIENESTAR</text>
+      <text x="195" y="125" text-anchor="middle" font-size="26" fill="#374151">Salón de belleza</text>
+      <text x="195" y="165" text-anchor="middle" font-size="26" fill="#374151">Spa y masajes</text>
+      <text x="195" y="205" text-anchor="middle" font-size="26" fill="#374151">Bar de la terraza</text>
+    </g>
+    <g transform="translate(70,462)">
+      <rect width="390" height="250" rx="18" fill="#FEECEC" stroke="#DC2626" stroke-width="4"/>
+      <text x="195" y="70" text-anchor="middle" font-size="34" font-weight="bold" fill="#DC2626">EVENTOS</text>
+      <text x="195" y="125" text-anchor="middle" font-size="26" fill="#374151">Salones para fiestas</text>
+      <text x="195" y="165" text-anchor="middle" font-size="26" fill="#374151">Paquetes de catering</text>
+      <text x="195" y="205" text-anchor="middle" font-size="26" fill="#374151">Aniversarios y bodas</text>
+    </g>
+    <g transform="translate(492,462)">
+      <rect width="390" height="250" rx="18" fill="#EFF4FF" stroke="#1E3A8A" stroke-width="4"/>
+      <text x="195" y="70" text-anchor="middle" font-size="34" font-weight="bold" fill="#1E3A8A">RESERVAS</text>
+      <text x="195" y="125" text-anchor="middle" font-size="26" fill="#374151">En línea, 24/7</text>
+      <text x="195" y="165" text-anchor="middle" font-size="26" fill="#374151">Aforo en tiempo real</text>
+      <text x="195" y="205" text-anchor="middle" font-size="26" fill="#374151">Máx. 2 por semana</text>
+    </g>
+    <g transform="translate(914,462)">
+      <rect width="390" height="250" rx="18" fill="#FEECEC" stroke="#DC2626" stroke-width="4"/>
+      <text x="195" y="70" text-anchor="middle" font-size="34" font-weight="bold" fill="#DC2626">AFILIACIÓN</text>
+      <text x="195" y="125" text-anchor="middle" font-size="26" fill="#374151">Planes de 1 a 12 meses</text>
+      <text x="195" y="165" text-anchor="middle" font-size="26" fill="#374151">Hasta 4 acompañantes</text>
+      <text x="195" y="205" text-anchor="middle" font-size="26" fill="#374151">Carné digital con QR</text>
+    </g>
+  </g>
+</svg>

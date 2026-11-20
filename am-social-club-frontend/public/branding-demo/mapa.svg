@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1376 768" width="1376" height="768">
+  <rect width="1376" height="768" fill="#EAF1E4"/>
+  <!-- sea -->
+  <path d="M0 0 H1376 V210 C 1100 260 700 180 0 250 Z" fill="#BFD4FF"/>
+  <text x="1120" y="120" font-family="Georgia, serif" font-size="40" font-style="italic" fill="#1E3A8A">Mar del Norte</text>
+  <!-- park blocks -->
+  <g fill="#CFE3C0">
+    <rect x="80" y="330" width="300" height="200" rx="20"/>
+    <rect x="980" y="420" width="300" height="240" rx="20"/>
+  </g>
+  <!-- streets -->
+  <g stroke="#ffffff" stroke-width="26" fill="none">
+    <path d="M0 300 H1376"/>
+    <path d="M0 600 H1376"/>
+    <path d="M460 210 V768"/>
+    <path d="M920 210 V768"/>
+  </g>
+  <g stroke="#9CA3AF" stroke-width="3" stroke-dasharray="18 14" fill="none">
+    <path d="M0 300 H1376"/>
+    <path d="M0 600 H1376"/>
+    <path d="M460 210 V768"/>
+    <path d="M920 210 V768"/>
+  </g>
+  <text x="70" y="284" font-family="Arial" font-size="26" fill="#4B5563">Calle 10</text>
+  <text x="70" y="584" font-family="Arial" font-size="26" fill="#4B5563">Avenida 20</text>
+  <text x="478" y="740" font-family="Arial" font-size="26" fill="#4B5563" transform="rotate(-90 478 740)">Calle 3ra</text>
+  <!-- building block highlight -->
+  <rect x="530" y="360" width="330" height="180" rx="14" fill="#EFF4FF" stroke="#DC2626" stroke-width="6"/>
+  <text x="695" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="bold" fill="#1E3A8A">SEDE DEL CLUB</text>
+  <!-- pin -->
+  <g transform="translate(695,330)">
+    <path d="M0 96 C -46 26 -60 -8 -60 -34 A 60 60 0 0 1 60 -34 C 60 -8 46 26 0 96 Z" fill="#DC2626" stroke="#7F1D1D" stroke-width="4"/>
+    <circle cx="0" cy="-32" r="24" fill="#ffffff"/>
+  </g>
+  <text x="695" y="270" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#7F1D1D">Club Social Costa Verde</text>
+  <!-- compass -->
+  <g transform="translate(1280,690)">
+    <circle r="44" fill="#ffffff" stroke="#1E3A8A" stroke-width="4"/>
+    <path d="M0 -30 L10 8 L0 0 L-10 8 Z" fill="#DC2626"/>
+    <text y="-56" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#1E3A8A">N</text>
+  </g>
+</svg>
