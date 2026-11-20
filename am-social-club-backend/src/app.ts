@@ -92,6 +92,22 @@ app.use(express.urlencoded({ extended: true, limit: '10kb' }))
 const projectRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), '..')
 app.use('/uploads', express.static(path.join(projectRoot, 'uploads')))
 
+// Lightweight diagnostics for the portfolio demo: which database is this
+// instance actually talking to (host only, no credentials).
+app.get('/api/health', (_req: Request, res: Response) => {
+  let dbHost = 'unknown'
+  try {
+    dbHost = new URL(env.DATABASE_URL).hostname
+  } catch {
+    // malformed URL: keep 'unknown'
+  }
+  res.json({
+    success: true,
+    data: { status: 'ok', dbHost, time: new Date().toISOString() },
+    timestamp: new Date().toISOString(),
+  })
+})
+
 app.use(globalLimiter)
 
 app.use((err: unknown, _req: Request, res: Response, next: NextFunction) => {
