@@ -136,7 +136,7 @@ export default function ActivityDetailPage() {
 
       <div className="mt-6 grid gap-10 lg:grid-cols-[1.05fr_0.95fr]">
         <div className="animate-fade-up motion-reduce:animate-none">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-border bg-muted shadow-[0_30px_70px_-35px_rgba(30,58,138,0.5)]">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border border-border bg-muted shadow-[0_30px_70px_-35px_rgba(53,224,124,0.5)]">
             <ActivityImageCarousel
               images={activity.images?.length ? activity.images : [resolveActivityImage(activity)]}
               alt={activity.name}

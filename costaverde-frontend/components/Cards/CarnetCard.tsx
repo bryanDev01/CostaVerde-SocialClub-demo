@@ -41,7 +41,7 @@ export function CarnetCard({ user, subscription, serverQrData }: CarnetCardProps
   return (
     <article
       className={cn(
-        'relative overflow-hidden rounded-[1.75rem] p-6 text-white shadow-[0_30px_70px_-30px_rgba(30,58,138,0.75)] sm:p-8',
+        'relative overflow-hidden rounded-[1.75rem] p-6 text-white shadow-[0_30px_70px_-30px_rgba(53,224,124,0.75)] sm:p-8',
         isValid ? 'bg-primary' : 'bg-primary/80'
       )}
       aria-label={`Carnet digital de ${user.name}`}
@@ -112,7 +112,7 @@ export function CarnetCard({ user, subscription, serverQrData }: CarnetCardProps
                 size={132}
                 level="M"
                 bgColor="#FFFFFF"
-                fgColor="#1E3A8A"
+                fgColor="#0A1F12"
                 aria-label="Código QR del carnet"
               />
             </div>

@@ -24,8 +24,8 @@ export function PlanCard({
       className={cn(
         "relative flex flex-col rounded-2xl border p-7 transition-all duration-300",
         highlighted
-          ? "border-primary bg-primary text-primary-foreground shadow-[0_30px_60px_-25px_rgba(30,58,138,0.65)]"
-          : "border-border bg-card shadow-sm hover:-translate-y-1 hover:shadow-[0_24px_50px_-28px_rgba(30,58,138,0.35)]"
+          ? "border-primary bg-primary text-primary-foreground shadow-[0_30px_60px_-25px_rgba(53,224,124,0.65)]"
+          : "border-border bg-card shadow-sm hover:-translate-y-1 hover:shadow-[0_24px_50px_-28px_rgba(53,224,124,0.35)]"
       )}
     >
       {badge ? (

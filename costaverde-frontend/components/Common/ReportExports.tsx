@@ -120,7 +120,7 @@ async function exportPdf(title: string, filename: string, sections: ReportSectio
       body: section.rows.map((row) => row.map(formatCell)),
       startY: 28,
       styles: { fontSize: 8, cellPadding: 2.5 },
-      headStyles: { fillColor: [30, 58, 138] },
+      headStyles: { fillColor: [14, 122, 61] },
       margin: { left: 14, right: 14 },
     })
   })

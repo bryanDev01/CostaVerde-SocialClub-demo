@@ -100,7 +100,7 @@ export function PlacesShowcase({ className }: { className?: string }) {
             <article
               key={activity.id}
               data-activity={activity.name}
-              className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_50px_-24px_rgba(30,58,138,0.4)]"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_50px_-24px_rgba(53,224,124,0.4)]"
             >
               <div className="relative aspect-4/3 overflow-hidden bg-muted">
                 <ActivityImageCarousel

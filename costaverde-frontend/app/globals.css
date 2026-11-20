@@ -1,21 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0d1526;
-  --card: #ffffff;
-  --card-foreground: #0d1526;
-  --primary: #1e3a8a;
+  /* Costa Verde demo — black + greens + gold */
+  --background: #0a0f0b;
+  --foreground: #e9f3e9;
+  --card: #101711;
+  --card-foreground: #e9f3e9;
+  --primary: #0e7a3d;
   --primary-foreground: #ffffff;
-  --danger: #dc2626;
-  --danger-foreground: #ffffff;
-  --success: #15803d;
-  --success-foreground: #ffffff;
-  --muted: #f4f6fb;
-  --muted-foreground: #5a6478;
-  --border: #e3e8f3;
-  --input: #d9dfee;
-  --ring: #1e3a8a;
+  --accent: #35e07c;
+  --accent-foreground: #052312;
+  --danger: #ffc94a;
+  --danger-foreground: #241a02;
+  --success: #35e07c;
+  --success-foreground: #052312;
+  --muted: #141c16;
+  --muted-foreground: #9db0a1;
+  --border: #223024;
+  --input: #1a241c;
+  --ring: #35e07c;
   --radius: 0.625rem;
 }
 
@@ -26,6 +29,8 @@
   --color-card-foreground: var(--card-foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
   --color-danger: var(--danger);
   --color-danger-foreground: var(--danger-foreground);
   --color-success: var(--success);
@@ -200,16 +205,16 @@
   }
 
   .dots-dark {
-    background-image: radial-gradient(rgba(30, 58, 138, 0.1) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(53, 224, 124, 0.12) 1px, transparent 1px);
     background-size: 22px 22px;
   }
 
   .text-shimmer {
     background: linear-gradient(
       110deg,
-      #1e3a8a 20%,
+      #86efac 20%,
       #ffffff 50%,
-      #1e3a8a 80%
+      #35e07c 80%
     );
     background-size: 220% auto;
     -webkit-background-clip: text;

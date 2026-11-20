@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1376 768" width="1376" height="768">
   <rect width="1376" height="768" fill="#ffffff"/>
   <g transform="translate(688,330)">
-    <circle r="200" fill="#ffffff" stroke="#1E3A8A" stroke-width="14"/>
-    <circle r="168" fill="#EFF4FF" stroke="#1E3A8A" stroke-width="5"/>
+    <circle r="200" fill="#ffffff" stroke="#0E7A3D" stroke-width="14"/>
+    <circle r="168" fill="#E4F6EA" stroke="#0E7A3D" stroke-width="5"/>
     <!-- palm -->
-    <path d="M-18 118 C -14 40 -8 -10 6 -52" fill="none" stroke="#1E3A8A" stroke-width="16" stroke-linecap="round"/>
-    <path d="M6 -52 C -34 -86 -78 -84 -108 -60 C -66 -74 -30 -68 2 -46 Z" fill="#DC2626"/>
-    <path d="M6 -52 C 46 -86 90 -84 120 -60 C 78 -74 42 -68 10 -46 Z" fill="#1E3A8A"/>
-    <path d="M6 -52 C -6 -96 -30 -122 -62 -134 C -34 -112 -18 -84 -10 -52 Z" fill="#1E3A8A"/>
-    <path d="M6 -52 C 18 -96 42 -122 74 -134 C 46 -112 30 -84 22 -52 Z" fill="#1E3A8A"/>
-    <circle cx="6" cy="-56" r="12" fill="#DC2626"/>
+    <path d="M-18 118 C -14 40 -8 -10 6 -52" fill="none" stroke="#0E7A3D" stroke-width="16" stroke-linecap="round"/>
+    <path d="M6 -52 C -34 -86 -78 -84 -108 -60 C -66 -74 -30 -68 2 -46 Z" fill="#E5A700"/>
+    <path d="M6 -52 C 46 -86 90 -84 120 -60 C 78 -74 42 -68 10 -46 Z" fill="#0E7A3D"/>
+    <path d="M6 -52 C -6 -96 -30 -122 -62 -134 C -34 -112 -18 -84 -10 -52 Z" fill="#0E7A3D"/>
+    <path d="M6 -52 C 18 -96 42 -122 74 -134 C 46 -112 30 -84 22 -52 Z" fill="#0E7A3D"/>
+    <circle cx="6" cy="-56" r="12" fill="#E5A700"/>
     <!-- waves -->
-    <path d="M-120 74 C -84 50 -48 98 -12 74 C 24 50 60 98 96 74" fill="none" stroke="#1E3A8A" stroke-width="13" stroke-linecap="round"/>
-    <path d="M-104 108 C -72 88 -40 124 -8 108 C 24 88 56 124 88 108" fill="none" stroke="#DC2626" stroke-width="11" stroke-linecap="round"/>
+    <path d="M-120 74 C -84 50 -48 98 -12 74 C 24 50 60 98 96 74" fill="none" stroke="#0E7A3D" stroke-width="13" stroke-linecap="round"/>
+    <path d="M-104 108 C -72 88 -40 124 -8 108 C 24 88 56 124 88 108" fill="none" stroke="#E5A700" stroke-width="11" stroke-linecap="round"/>
   </g>
-  <text x="688" y="640" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="bold" letter-spacing="10" fill="#1E3A8A">COSTA VERDE</text>
+  <text x="688" y="640" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="bold" letter-spacing="10" fill="#0E7A3D">COSTA VERDE</text>
   <text x="688" y="706" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" letter-spacing="16" fill="#6B7280">CLUB SOCIAL</text>
 </svg>

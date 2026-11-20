@@ -215,7 +215,7 @@ export function NotificationBell({ align = 'end' }: { align?: 'start' | 'end' })
         <div
           role="menu"
           aria-label="Notificaciones"
-          className="absolute top-full z-50 mt-2 w-[22rem] max-w-[calc(100vw-2rem)] overflow-hidden rounded-2xl border border-border bg-card shadow-[0_24px_60px_-24px_rgba(30,58,138,0.45)]"
+          className="absolute top-full z-50 mt-2 w-[22rem] max-w-[calc(100vw-2rem)] overflow-hidden rounded-2xl border border-border bg-card shadow-[0_24px_60px_-24px_rgba(53,224,124,0.45)]"
           style={align === 'start' ? { left: 0 } : { right: 0 }}
         >
           <div className="flex items-center justify-between gap-3 border-b border-border px-4 py-3">

@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid slice">
-  <rect width="1200" height="800" fill="#0F1E4C"/>
-  <rect y="620" width="1200" height="180" fill="#1E3A8A"/>
+  <rect width="1200" height="800" fill="#070B08"/>
+  <rect y="620" width="1200" height="180" fill="#159957"/>
   <!-- neon sign -->
-  <rect x="330" y="90" width="540" height="150" rx="26" fill="none" stroke="#DC2626" stroke-width="8"/>
-  <text x="600" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#DC2626" letter-spacing="8">BILLAR</text>
+  <rect x="330" y="90" width="540" height="150" rx="26" fill="none" stroke="#FFC94A" stroke-width="8"/>
+  <text x="600" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#FFC94A" letter-spacing="8">BILLAR</text>
   <!-- table -->
   <g transform="translate(600,470)">
-    <rect x="-380" y="-130" width="760" height="260" rx="34" fill="#166534" stroke="#7C2D12" stroke-width="22"/>
-    <circle cx="-330" cy="-85" r="26" fill="#0F1E4C"/>
-    <circle cx="330" cy="-85" r="26" fill="#0F1E4C"/>
-    <circle cx="-330" cy="85" r="26" fill="#0F1E4C"/>
-    <circle cx="330" cy="85" r="26" fill="#0F1E4C"/>
-    <circle cx="0" cy="-110" r="22" fill="#0F1E4C"/>
-    <circle cx="0" cy="110" r="22" fill="#0F1E4C"/>
+    <rect x="-380" y="-130" width="760" height="260" rx="34" fill="#0F5C31" stroke="#7C2D12" stroke-width="22"/>
+    <circle cx="-330" cy="-85" r="26" fill="#070B08"/>
+    <circle cx="330" cy="-85" r="26" fill="#070B08"/>
+    <circle cx="-330" cy="85" r="26" fill="#070B08"/>
+    <circle cx="330" cy="85" r="26" fill="#070B08"/>
+    <circle cx="0" cy="-110" r="22" fill="#070B08"/>
+    <circle cx="0" cy="110" r="22" fill="#070B08"/>
     <circle cx="-90" cy="20" r="18" fill="#ffffff"/>
-    <circle cx="-30" cy="-40" r="18" fill="#DC2626"/>
+    <circle cx="-30" cy="-40" r="18" fill="#FFC94A"/>
     <circle cx="40" cy="10" r="18" fill="#FDE68A"/>
-    <circle cx="110" cy="-30" r="18" fill="#1E3A8A"/>
+    <circle cx="110" cy="-30" r="18" fill="#159957"/>
     <line x1="150" y1="90" x2="420" y2="200" stroke="#D8CBB0" stroke-width="10" stroke-linecap="round"/>
   </g>
   <!-- cues on rack -->

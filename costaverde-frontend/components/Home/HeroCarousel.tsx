@@ -42,7 +42,7 @@ export function HeroCarousel() {
             key={image.src}
             aria-hidden={!isFront}
             className={[
-              "absolute left-1/2 top-1/2 rounded-[2rem] border border-border bg-card shadow-[0_30px_80px_-30px_rgba(30,58,138,0.45)] transition-all duration-700 ease-out",
+              "absolute left-1/2 top-1/2 rounded-[2rem] border border-border bg-card shadow-[0_30px_80px_-30px_rgba(53,224,124,0.45)] transition-all duration-700 ease-out",
               isFront
                 ? "z-30 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100"
                 : isRight

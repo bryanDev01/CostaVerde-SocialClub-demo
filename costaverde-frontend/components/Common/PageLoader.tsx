@@ -36,7 +36,7 @@ export function PageLoader({
             className="absolute inset-0 animate-ping-soft rounded-full bg-primary/10 [animation-delay:0.8s] motion-reduce:animate-none"
           />
 
-          <div className="relative size-32 overflow-hidden rounded-full border border-border bg-white shadow-[0_24px_60px_-28px_rgba(30,58,138,0.55)]">
+          <div className="relative size-32 overflow-hidden rounded-full border border-border bg-white shadow-[0_24px_60px_-28px_rgba(53,224,124,0.55)]">
             <span
               aria-hidden
               className="absolute left-[-50%] top-[72%] size-[200%] animate-wave-slow rounded-[40%] bg-primary/20 motion-reduce:animate-none"
