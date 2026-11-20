@@ -44,8 +44,9 @@ cd am-social-club-frontend
 npm install && npm run dev
 ```
 
-Abre <http://localhost:3000> e inicia sesión con `socio1@demo.costaverde.cu` / `demo1234`
-(o cualquiera de las cuentas de [DEMO.md](./DEMO.md)).
+Abre <http://localhost:3000> e inicia sesión con `invitado1@demo.costaverde.cu` / `demo1234`
+(cuenta limpia para probar sin romper nada) o cualquiera de las cuentas de
+[DEMO.md](./DEMO.md) — la pantalla de login tiene un desplegable con todas.
 
 ## Reglas de negocio implementadas
 

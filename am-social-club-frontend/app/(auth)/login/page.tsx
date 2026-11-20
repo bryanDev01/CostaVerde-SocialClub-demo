@@ -13,6 +13,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { FormField } from '@/components/Common/FormField'
 import { FormAlert } from '@/components/Common/FormAlert'
+import { DemoAccountHints } from '@/components/Common/DemoAccountHints'
 import { PasswordInput } from '@/components/Common/PasswordInput'
 
 function LoginNotice() {
@@ -179,6 +180,8 @@ export default function LoginPage() {
           <Link href="/register">Crear cuenta con mi CI</Link>
         </Button>
       </div>
+
+      <DemoAccountHints onPickEmail={setEmail} />
 
       <p className="mt-6 text-center text-xs leading-relaxed text-muted-foreground">
         ¿Problemas para entrar? Escribe a{' '}

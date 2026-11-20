@@ -86,11 +86,16 @@ const MEMBERS = [
   { ci: '91080802008', email: 'socio8@demo.costaverde.cu', name: 'Osmany Cardero Batista', company: 1, status: 'active', plan: 1, expiringInDays: -3 },
   // Registrado, esperando validar su pago (muro de pago)
   { ci: '95090901009', email: 'socio9@demo.costaverde.cu', name: 'Paloma Estévez Mirabal', company: 0, status: 'pending_payment', plan: null },
+  // Cuentas "invitado" para inspectores de la demo: activas, sin reservas ni
+  // acompañantes, para probar el flujo completo de reserva sin romper los escenarios.
+  { ci: '92090907012', email: 'invitado1@demo.costaverde.cu', name: 'Invitado Curioso Pérez', company: 0, status: 'active', plan: 12 },
+  { ci: '93090908013', email: 'invitada2@demo.costaverde.cu', name: 'Inspectora Entusiasta Ledesma', company: 1, status: 'active', plan: 12 },
 ]
 
 const EXTERNALS = [
   { ci: '70101020010', email: 'externo1@demo.costaverde.cu', name: 'Cándido Reinoso Vega' },
   { ci: '83111130011', email: 'externo2@demo.costaverde.cu', name: 'Silvia Nápoles Cuesta' },
+  { ci: '84111140014', email: 'visitante@demo.costaverde.cu', name: 'Visitante de la Demo' },
 ]
 
 const ASSOCIATES = [
@@ -199,7 +204,7 @@ async function insertUser({ ci, email, name, phone, company, status, role }) {
   const companyId = company === null || company === undefined
     ? null
     : (await q('SELECT id FROM companies WHERE name = $1', [company])).rows[0].id
-  const userType = role === 'user' && email.startsWith('externo') ? 'external' : 'corporate'
+  const userType = role === 'user' && /^(externo|visitante)@/.test(email) ? 'external' : 'corporate'
   const { rows } = await q(
     `INSERT INTO users (ci, email, password_hash, name, phone, company_id, user_type, user_status, role_id)
      VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING id`,
@@ -480,7 +485,8 @@ try {
   console.log('  HR Astilleros:  rrhh.aez@clubcostaverde.cu / ' + PASSWORD)
   console.log('  Socio activo:   socio1@demo.costaverde.cu / ' + PASSWORD)
   console.log('  Pago pendiente: socio9@demo.costaverde.cu / ' + PASSWORD)
-  console.log('  Externo:        externo1@demo.costaverde.cu / ' + PASSWORD)
+  console.log('  Invitado demo:    invitado1@demo.costaverde.cu / ' + PASSWORD)
+  console.log('  (externo1/visitante: registros de recepción, no inician sesión en la app)')
 } catch (error) {
   await q('ROLLBACK')
   console.error('✘ Seed demo falló:', error instanceof Error ? error.message : error)

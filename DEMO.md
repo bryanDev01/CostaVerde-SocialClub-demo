@@ -59,16 +59,24 @@ Para re-sembrar (p. ej. después de tocar datos durante una presentación): `npm
 
 ### Cuentas de prueba (password: `demo1234`)
 
+La propia pantalla de login tiene un desplegable **"Cuentas de la demo"** que las lista y
+rellena el correo con un clic — no hace falta memorizar nada.
+
 | Rol | Email | Qué mostrar |
 |---|---|---|
-| Admin | `administrador@clubcostaverde.cu` | Panel admin, validar pagos (hay 1 pendiente), reportes |
-| Recepción | `recepcion@clubcostaverde.cu` | Check-in por QR del carné, visitantes, cobros |
-| HR Marina | `rrhh@clubcostaverde.cu` | Precarga de empleados (2 pendientes), usuarios de su empresa |
-| HR Astilleros | `rrhh.aez@clubcostaverde.cu` | Multi-tenant: segunda empresa con su propio HR |
-| Socio activo | `socio1@demo.costaverde.cu` | Dashboard, reservas, carné digital, acompañantes |
-| Socio con pago pendiente | `socio9@demo.costaverde.cu` | **Muro de pago** completo: QR + referencia + operación |
-| Socia suspendida | `socio7@demo.costaverde.cu` | Estado `suspended` (periodo de gracia vencido) |
-| Externo | `externo1@demo.costaverde.cu` | Usuarios externos con suscripción propia |
+| 🧑‍💼 **Invitado (cuenta limpia)** | `invitado1@demo.costaverde.cu` | Reservar/cancelar a gusto: activa, sin reservas previas |
+| 👩‍💼 **Invitada (cuenta limpia)** | `invitada2@demo.costaverde.cu` | Igual, en la segunda empresa (multi-tenant) |
+| Socio con carné | `socio1@demo.costaverde.cu` | Reservas hechas, acompañantes y QR del carné |
+| Pago pendiente | `socio9@demo.costaverde.cu` | **Muro de pago** completo: QR + referencia + operación |
+| Suspendida | `socio7@demo.costaverde.cu` | Periodo de gracia vencido → `suspended` |
+| Admin | `administrador@clubcostaverde.cu` | Validar pagos (hay 1 pendiente) y reportes |
+| Recepción | `recepcion@clubcostaverde.cu` | Check-in por QR del carné, visitantes del día |
+| HR Marina | `rrhh@clubcostaverde.cu` | Precarga de empleados (2 pendientes) de su empresa |
+| HR Astilleros | `rrhh.aez@clubcostaverde.cu` | Segunda empresa con su propio HR |
+
+> Los usuarios `externo*/visitante@demo.costaverde.cu` existen como **registros de
+> recepción** (visitas sin cuenta de app): por diseño del negocio, los externos no
+> inician sesión — se gestionan desde el panel de recepción.
 
 Guion sugerido: landing → login de socio → reserva con aforo en vivo → carné QR →
 check-in con cuenta de recepción → panel admin validando el pago pendiente → reporte
